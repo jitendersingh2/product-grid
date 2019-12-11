@@ -1,0 +1,20 @@
+.cart-action-button {
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.42857;
+  color: rgb(51, 51, 51);
+  background-color: rgb(255, 255, 255);
+  border-width: 1px;
+  border-style: solid;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border-color: rgb(136, 136, 136);
+}
+
+.cart-action-button.in-stock {
+  background-color: #282c34;
+  color: rgb(255, 255, 255);
+}
